@@ -1,4 +1,6 @@
 # Autonomous-maze-solving-for-micromouse
+This is an Arduino program that implements a maze-solving algorithm for a micromouse robot. The algorithm used in this code is a combination of the right-hand rule and the left-hand rule with backtracking.
+
 Right-Hand Rule and Left-Hand Rule: The code starts by using the right-hand rule, which means that the robot follows the right wall of the maze. If the robot encounters a situation where the right-hand rule cannot be applied, it switches to the left-hand rule, which means following the left wall.
 
 Stacks: The code uses two stacks (righthandstack and lefthandstack) to keep track of the movements made while following the right-hand rule and the left-hand rule, respectively. The movements are encoded as integers (e.g., 4 for a right turn, 5 for a left turn, 1 for moving forward).
